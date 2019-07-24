@@ -3,7 +3,7 @@ provider "vault" {
   # It is strongly recommended to configurerrr this provider through the 
   # environment variables
 
-  address = "http://3163bcea.ngrok.io"
+  address = "http://1c589c68.ngrok.io"
   token = "${var.vault-token}"
 }
 

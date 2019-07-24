@@ -7,6 +7,10 @@ variable "resource_group" {
   description = "Name of the Azure Resource group"
 }
 
+variable "vault-token" {
+}
+
+
 variable "environment_tag" {
   default     = "Vault Training"
   description = "Name of Environment"

@@ -1,6 +1,6 @@
 # Configure the HashiCorp Vault Provider
 provider "vault" {
-  # It is strongly recommended to configure this provider through the 
+  # It is strongly recommended to configurerrr this provider through the 
   # environment variables
 
   address = "http://3163bcea.ngrok.io"

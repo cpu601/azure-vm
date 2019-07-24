@@ -76,7 +76,7 @@ resource "azurerm_public_ip" "vault-training-publicip" {
   location            = "eastus"
   resource_group_name = "${var.resource_group}"
   allocation_method   = "Dynamic"
-  domain_name_label   = "swissrevault"
+  domain_name_label   = "cpu-vault"
 
   tags {
     environment = "${var.environment_tag}"
